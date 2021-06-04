@@ -20,10 +20,10 @@ class TwitterClient(object):
         #Class constructor or initialization method.
         
         # keys and tokens from the Twitter Dev Console
-        consumer_key = 'gvAG6vgkQt0rqtgDSCEmu7mW8'
-        consumer_secret = '1sPbG6nLqBfDQZ8DdusnRw2QSjfTVuabNQUuSjXGecA9hJ2qeE'
-        access_token = '503230585-L8u1OF8jHJWXsdn5CZGNPfXA3F4MwLjUkVoNBET9'
-        access_token_secret = 'UjRXRdHYxGZi7GAFw1R2NbdROlRkWhUWaLZF1BLC5FowJ'
+        consumer_key = ''
+        consumer_secret = ''
+        access_token = ''
+        access_token_secret = ''
          
         self.emoji_pattern = re.compile(pattern = "["
                             u"\U0001F600-\U0001F64F"  # emoticons
